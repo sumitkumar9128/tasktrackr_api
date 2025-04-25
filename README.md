@@ -33,7 +33,7 @@ A minimal RESTful Todo API built using Node.js, Express, and MongoDB. This proje
 git clone https://github.com/your-username/tasktrackr.git
 
 # 2. Install dependencies
-cd tasktrackr
+cd tasktrackr_api
 npm install
 
 # 3. Setup environment
@@ -42,6 +42,6 @@ MONGO_URI=your_mongo_uri_here
 PORT=5000
 
 # 4. Run the app
-npm start
+npm run dev
 
 
